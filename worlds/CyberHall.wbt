@@ -1,0 +1,8023 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/master/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "../protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/CeilingLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/cabinet/protos/CabinetHandle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/PaintedWood.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Keyboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Armchair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/GenericDoorAppearance.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/paintings/protos/LandscapePainting.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/fruits/protos/FruitBowl.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/DesktopComputer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/ComputerMouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Laptop.proto"
+
+WorldInfo {
+  info [
+    "Sample of how the indoor objects can be placed"
+  ]
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.5714236104060813 0.5615102618781456 0.5984824836835372 2.078350947495214
+  position -1.9999378634835898 -6.599937863307883 57.96887486861941
+  exposure 0.5
+}
+CeilingLight {
+  translation -6.4341 -1.0406 5
+  name "ceiling light 1"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -0.4611 -6.0432 5
+  name "ceiling light 2"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 4.5589 -6.0432 5
+  name "ceiling light 2(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 9.9389 -6.0432 5
+  name "ceiling light 2(2)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 14.6089 -6.0432 5
+  name "ceiling light 2(3)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -14.1611 -6.0632 5.08
+  name "ceiling light 4"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -17.9611 -6.0632 5.08
+  name "ceiling light 4(8)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -9.2211 -9.7032 5.08
+  name "ceiling light 4(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -13.4111 -9.6532 5.08
+  name "ceiling light 4(2)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -17.8511 -9.8432 5.08
+  name "ceiling light 4(3)"
+  pointLightIntensity 8
+}
+Background {
+  skyColor [
+    0.15 0.45 1
+  ]
+}
+CeilingLight {
+  translation -17.8511 -13.0132 5.08
+  name "ceiling light 4(4)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -13.3111 -13.0032 5.08
+  name "ceiling light 4(5)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -9.0411 -12.9132 5.08
+  name "ceiling light 4(6)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -4.7411 -12.8132 5.08
+  name "ceiling light 4(7)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -5.4241 -6.0606 5
+  name "ceiling light 5"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -9.9041 -6.0606 5
+  name "ceiling light 5(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -7.3511 -3.0832 5
+  name "ceiling light 6"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -4.2311 -9.8132 5
+  name "ceiling light 6(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -3.4941 -3.0406 5
+  name "ceiling light 7"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -8.9311 -1.1632 5
+  name "ceiling light 8"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -3.4111 -1.1132 5
+  name "ceiling light 9"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 12.7889 -2.0532 5
+  name "ceiling light 9(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -9.3111 -3.0732 5
+  name "ceiling light 10"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 0.9889 -2.0732 5
+  name "ceiling light 10(1)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 0.9889 -11.9632 5
+  name "ceiling light 10(3)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 7.5989 -11.9932 5
+  name "ceiling light 10(4)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 13.2689 -11.8832 5
+  name "ceiling light 10(5)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation 6.5989 -2.0732 5
+  name "ceiling light 10(2)"
+  pointLightIntensity 8
+}
+CeilingLight {
+  translation -5.3711 -3.0532 5
+  name "ceiling light 11"
+  pointLightIntensity 8
+}
+Chair {
+  translation 0.85 -2.37 0
+  rotation 0 0 1 1.5708
+  color 0 0 0
+}
+Chair {
+  translation 0.850016 -10.63 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 1.60002 -10.63 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 7.69002 -10.63 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 7.06002 -10.63 0
+  rotation 0 0 -1 1.309
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 13.6426 -10.4515 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 14.3626 -10.4515 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 7.6 -2.37 0
+  rotation 0 0 1 1.5708
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 6.78 -2.37 0
+  rotation 0 0 1 1.5708
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 14.31 -2.37 0
+  rotation 0 0 1 1.5708
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 13.38 -2.37 0
+  rotation 0 0 1 1.5708
+  name "chair(2)"
+  color 0 0 0
+}
+Chair {
+  translation 1.69 -2.37 0
+  rotation 0 0 1 1.5708
+  name "chair(2)"
+  color 0 0 0
+}
+DesktopComputer {
+  translation 2.13 -0.66 0.13
+}
+DesktopComputer {
+  translation 7.57 -0.66 0.13
+  name "desktop computer(1)"
+}
+DesktopComputer {
+  translation 14.46 -0.78 0.03
+  name "desktop computer(2)"
+}
+DesktopComputer {
+  translation 8.24 -12.04 0.03
+  name "desktop computer(7)"
+}
+DesktopComputer {
+  translation 14.75 -12.17 0.03
+  name "desktop computer(6)"
+}
+LandscapePainting {
+  translation -14.82 -4.35 1.55
+  rotation 0 0 1 -1.5707953071795862
+  color 0.6 0.6 0.6
+  textureUrl [
+    "../Desktop/landscapre-research-poster-indd-00-1.jpg"
+  ]
+}
+OfficeChair {
+  translation -3.68154 -13.1226 0.45
+  rotation 0 0 1 -2.094395307179586
+  enablePhysics FALSE
+}
+OfficeChair {
+  translation -3.79274 -11.9156 0.04
+  rotation 0 0 1 3.14159
+  name "office chair(1)"
+  enablePhysics FALSE
+}
+OfficeChair {
+  translation -3.79274 -9.7156 0.01
+  rotation 0 0 1 3.14159
+  name "office chair(2)"
+  enablePhysics FALSE
+}
+OfficeChair {
+  translation 1.5072600487508243 -0.835599856715196 -0.0007076610500030278
+  rotation -0.0003515143615836414 -0.0003465018295534663 -0.9999998781870605 1.5707952432468004
+  name "office chair(23)"
+}
+OfficeChair {
+  translation 1.50726 -12.1856 0.00721469
+  rotation -0.0006019918533400002 0.0003533479139157703 0.9999997563755004 1.0472
+  name "office chair(33)"
+}
+OfficeChair {
+  translation 7.41127 -12.1706 0.00717466
+  rotation -0.0003465009577918485 0.0003515139571812025 0.9999998781875046 1.5708
+  name "office chair(34)"
+}
+OfficeChair {
+  translation 14.2013 -12.1706 0.00714071
+  rotation 0.9999613747856432 -0.007181512691631818 -0.005067031899124164 -0.0006953071795861021
+  name "office chair(35)"
+}
+OfficeChair {
+  translation 7.068659933154364 -0.977019864210314 -0.0007076610500029445
+  rotation -0.00035505895641042406 -0.000840074451974 -0.9999995841039399 0.7853971083368998
+  name "office chair(28)"
+}
+OfficeChair {
+  translation 13.847300048750823 -0.8355938567151959 -0.0007076610500030278
+  rotation -0.00035151436158366685 -0.0003465018295534231 -0.9999998781870605 1.5707952432468006
+  name "office chair(24)"
+}
+OfficeChair {
+  translation -8.752779172596048 -9.71559994672216 -0.0007076605977657802
+  rotation 0.0003490078413276238 -2.5182956257284807e-06 0.9999999390935908 -3.141583691795231
+  name "office chair(3)"
+}
+OfficeChair {
+  translation -10.64 -13.1676 -0.00291164
+  rotation -0.0003298901401488697 0.002653581127334074 -0.9999964248334571 0.261791
+  name "office chair(25)"
+}
+OfficeChair {
+  translation -15.71268989467072 -9.715562182237312 -0.000707660597769777
+  rotation 0.0003457238862378944 -0.00045735104073849785 0.9999998356524964 1.30900692677861
+  name "office chair(26)"
+}
+OfficeChair {
+  translation -15.5975 -12.0011 -0.00222382
+  rotation -0.0011629201056008506 0.0006826440619886037 -0.9999990908065429 -0.5236053071795865
+  name "office chair(32)"
+}
+OfficeChair {
+  translation -19.4492 -9.59456 -0.00131931
+  rotation 0.0003457238862378944 -0.00045735104073849785 0.9999998356524964 1.30900692677861
+  name "office chair(29)"
+}
+OfficeChair {
+  translation -15.6615 -13.6185 -0.00038823
+  rotation -0.0005604177669201738 -0.0007195407007403558 -0.9999995840964668 0.785389
+  name "office chair(27)"
+}
+OfficeChair {
+  translation -19.3878 -11.6284 -0.00287998
+  rotation -0.00025364698344223135 0.00025733398320154844 0.9999999347212123 2.618
+  name "office chair(31)"
+}
+OfficeChair {
+  translation -19.6123 -13.6751 -0.00171639
+  rotation -0.00017232298950441624 0.0003035089815143415 0.9999999390935409 -3.1415853071795863
+  name "office chair(30)"
+}
+OfficeChair {
+  translation -8.882739809808985 -13.35560863131334 -0.0007076608193884726
+  rotation -0.0003515157495361122 -0.000346501379246293 -0.9999998781867285 1.5707928258206885
+  name "office chair(7)"
+}
+OfficeChair {
+  translation -6.10166 -9.79945 -0.02
+  rotation 0 0 -1 0.261798
+  name "office chair(4)"
+  enablePhysics FALSE
+}
+OfficeChair {
+  translation -6.095549999552386 -3.0022499998868635 -0.000707661139068505
+  rotation 0.00032996578067029413 -0.0026534382564523196 0.9999964251876118 0.2618039252107373
+  name "office chair(9)"
+}
+OfficeChair {
+  translation -10.537209969469465 -3.54773791778893 -0.01700776497462722
+  rotation 0.03510475675550135 -0.08887693648727311 -0.9954238023142578 0.7519601373031535
+  name "office chair(16)"
+}
+OfficeChair {
+  translation -10.72145460911275 -1.1023782285836954 -2.4786610394789133e-05
+  rotation 0.10612968526845862 -0.9943522801246228 0.00018142706937444443 0.011031019195325502
+  name "office chair(17)"
+}
+OfficeChair {
+  translation -10.721699999874177 -11.922399999555788 -0.000707661139068505
+  rotation 0.0003457408697166505 -0.0004573412053629484 0.9999998356511229 1.309000158714457
+  name "office chair(19)"
+}
+OfficeChair {
+  translation -13.974009661611127 -12.633379884300513 0.04398949740189803
+  rotation 0.09843692270488162 -0.056390458647664295 0.9935443062198581 -3.092838800977518
+  name "office chair(20)"
+}
+OfficeChair {
+  translation -13.9602 -13.5988 -0.000725062
+  rotation -0.00038137856974882384 -0.00013002338020756844 -0.9999999188221502 2.095368296162388
+  name "office chair(21)"
+}
+OfficeChair {
+  translation -10.710299999552394 -9.67749999988686 -0.0007076611390662013
+  rotation 0.0003299666765992424 -0.0026533122109857533 0.9999964255217633 0.26181623234633816
+  name "office chair(22)"
+}
+OfficeChair {
+  translation -10.85169605499062 0.18768424632248593 -0.0007076603078256249
+  rotation 0.0003464887495818794 -0.00035152350913381943 0.9999998781883771 1.5708062839007748
+  name "office chair(18)"
+}
+OfficeChair {
+  translation -8.995550000461646 -3.002249999993434 -0.000707661139068505
+  rotation 0.00034900785241670317 -2.5055354590233433e-06 0.9999999390936188 -3.1415853072145494
+  name "office chair(11)"
+}
+OfficeChair {
+  translation -8.865550000006559 -1.3922500004616434 -0.0007076611390685605
+  rotation -0.00035151465508926477 -0.0003465032127696613 -0.9999998781864781 1.5707901218480451
+  name "office chair(12)"
+}
+OfficeChair {
+  translation -8.865550000461647 0.34775000000656703 -0.000707661139068505
+  rotation 0.00034900785241670886 -2.5055354590090497e-06 0.9999999390936188 -3.1415853072145494
+  name "office chair(15)"
+}
+OfficeChair {
+  translation -6.07555000000657 -1.3922500004616434 -0.0007076611390685605
+  rotation -0.00035151465508926656 -0.0003465032127696615 -0.9999998781864781 1.5707901218480451
+  name "office chair(13)"
+}
+OfficeChair {
+  translation -5.971389999763489 0.2681120003965092 -0.000707661139068505
+  rotation 0.0003446658573543685 -0.0006070043139215339 0.999999756375575 1.047200210950762
+  name "office chair(14)"
+}
+OfficeChair {
+  translation -3.9502900001131382 0.11942700044761233 -0.000707661139068505
+  rotation 0.0003470842906274686 -0.00027030875672899715 0.9999999032328308 1.8326000934352857
+  name "office chair(10)"
+}
+OfficeChair {
+  translation -5.903505540959274 -13.056704273261962 -0.0007076604527706254
+  rotation -0.0003550635287607456 -0.0008400766309039266 -0.9999995841004858 0.7853937859651794
+  name "office chair(5)"
+}
+DesktopComputer {
+  translation -9.45 -9.17 0.79
+  name "desktop computer(3)"
+}
+DesktopComputer {
+  translation -9.45 -8.94 0.79
+  name "desktop computer(4)"
+}
+OfficeChair {
+  translation -5.85586 -11.6811 0.02
+  rotation 0 0 1 2.85387e-06
+  name "office chair(6)"
+  enablePhysics FALSE
+}
+OfficeChair {
+  translation -9.095866159369631 -11.68110013122547 -0.0007076604527725128
+  rotation 0.00034900795257819826 -2.5067431400758982e-06 0.9999999390935809 -3.1415834901435638
+  name "office chair(8)"
+}
+WoodenChair {
+  translation -2.87995 -14.08 0.08
+  rotation 0 0 1 1.5708
+  color 0.7 1 0.5
+}
+Armchair {
+  translation -7.54 -13.85 0
+  rotation 0 0 1 1.5708
+  color 0 0 0
+}
+Armchair {
+  translation -1.41004 -5.04 0.01
+  rotation 0 0 1 -1.5707953071795862
+  name "armchair(1)"
+  color 0.52 0.52 0.56
+}
+Charger {
+  translation -1.31 -0.908887 0.214244
+  rotation 1 0 0 2.0944
+}
+Monitor {
+  translation -5.53899 0.84145 0.8
+  rotation 0 0 1 -2.3561953071795863
+  scale 1.8
+}
+Monitor {
+  translation -10.3187 0.841444 0.8
+  rotation 0 0 1 -2.3561953071795863
+  name "monitor(14)"
+  scale 1.8
+}
+Monitor {
+  translation -13.6787 -9.13561 0.8
+  rotation 0 0 -1 1.0472
+  name "monitor(8)"
+  scale 1.8
+}
+Monitor {
+  translation -14.2658 -9.22009 0.8
+  rotation 0 0 -1 1.0472
+  name "monitor(9)"
+  scale 1.8
+}
+Monitor {
+  translation -14.3732 -9.97401 0.8
+  rotation 0 0 1 0.261797
+  name "monitor(10)"
+  scale 1.8
+}
+Monitor {
+  translation -5.30669 -2.04302 0.8
+  rotation 0 0 1 2.61799
+  name "monitor(4)"
+  scale 1.8
+}
+Monitor {
+  translation -10.0967 -1.30302 0.8
+  rotation 0 0 1 3.14159
+  name "monitor(15)"
+  scale 1.8
+}
+Monitor {
+  translation -5.78727 -13.9913 0.81
+  rotation 0 0 1 1.83259
+  name "monitor(5)"
+  scale 1.8
+}
+Monitor {
+  translation -8.83624 -14.0134 0.88
+  rotation 0 0 1 1.83259
+  name "monitor(11)"
+  scale 1.8
+}
+Monitor {
+  translation -10.4262 -13.9957 0.88
+  rotation 0 0 1 1.83259
+  name "monitor(16)"
+  scale 1.8
+}
+Monitor {
+  translation -10.2316 -11.7439 0.88
+  rotation 0 0 -1 -3.1415853071795863
+  name "monitor(18)"
+  scale 1.8
+}
+Monitor {
+  translation -15.2426 -13.9925 0.88
+  rotation 0 0 1 1.83259
+  name "monitor(17)"
+  scale 1.8
+}
+Monitor {
+  translation -20.0826 -11.7325 0.88
+  rotation 0 0 1 -5.307179586466759e-06
+  name "monitor(23)"
+  scale 1.8
+}
+Monitor {
+  translation -15.2572 -9.12468 0.88
+  rotation 0 0 1 -2.3562053071795863
+  name "monitor(19)"
+  scale 1.8
+}
+Monitor {
+  translation -5.2455 -13.3065 0.81
+  rotation 0 0 1 2.87979
+  name "monitor(7)"
+  scale 1.8
+}
+Monitor {
+  translation -5.23986 -11.9697 0.81
+  rotation 0 0 1 2.87979
+  name "monitor(12)"
+  scale 1.8
+}
+Monitor {
+  translation -4.62631 -14.089 0.81
+  rotation 0 0 1 0.785397
+  name "monitor(6)"
+  scale 1.8
+}
+Monitor {
+  translation -4.68262 -11.9791 0.81
+  rotation 0 0 1 -5.307179586466759e-06
+  name "monitor(13)"
+  scale 1.8
+}
+Monitor {
+  translation 2.21787 -0.353507 0.65
+  rotation 0 0 1 -2.3561953071795863
+  name "monitor(1)"
+  scale 1.8
+}
+Monitor {
+  translation 2.15413 -11.4748 0.65
+  rotation 0 0 1 -2.3561953071795863
+  name "monitor(22)"
+  scale 1.8
+}
+Monitor {
+  translation 7.74034 -0.760004 0.71
+  rotation 0 0 1 3.14159
+  name "monitor(2)"
+  scale 1.8
+}
+Monitor {
+  translation 14.5862 -1.43605 0.65
+  rotation 0 0 -1 -2.3561953071795863
+  name "monitor(3)"
+  scale 1.8
+}
+Monitor {
+  translation 14.6762 -11.566 0.65
+  rotation 0 0 1 -2.6179953071795863
+  name "monitor(20)"
+  scale 1.8
+}
+Monitor {
+  translation 8.48388 -12.5977 0.65
+  rotation 0 0 1 2.61799
+  name "monitor(21)"
+  scale 1.8
+}
+DEF DESK3SHORT Solid {
+  translation -6.11 0.91 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(1)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -6.07 -14.04 0.79
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(13)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.7 -14.06 0.84
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(20)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.93 -14.1 0.83
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(21)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -13.68 -14.09 0.83
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(25)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -15.86 -14.1 0.81
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(29)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -19.18 -14.19 0.81
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(32)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -13.7 -10.98 0.84
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(22)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -15.9 -10.98 0.84
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(28)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -19.22 -10.98 0.84
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(31)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -6.06 -10.9 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(16)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.76 -10.93 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(19)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -6.11 -2.17 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(2)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.86 -2.17 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(4)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.85 -2.17 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(7)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.89 -2.17 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(10)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.91 -4.16 0.74
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(11)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -6.11 -4.11 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(3)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.87 -4.13 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(5)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.87 -9.01 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(15)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.72 -9.03 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(18)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.94 -9.03 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(23)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -15.86 -9.03 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(27)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -19.24 -9.13 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(30)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.94 -11.01 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(26)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -13.65 -9.03 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(24)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -6.09 -9 0.77
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(17)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.84 -4.08 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(6)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+Window {
+  translation -6.44 1.43 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(3)"
+  size 0.15 1 2.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -6.44 -14.57 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(1)"
+  size 0.15 1 2.4
+  glassTransparency 0.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -9.78 -14.57 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(7)"
+  size 0.15 1 2.4
+  glassTransparency 0.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -12.99 -14.57 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(8)"
+  size 0.15 1 2.4
+  glassTransparency 0.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -16.18 -14.57 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(9)"
+  size 0.15 1 2.4
+  glassTransparency 0.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -9.49 1.43 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(4)"
+  size 0.15 1 2.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -11.88 1.43 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(5)"
+  size 0.15 1 2.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -3.37 1.43 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(2)"
+  size 0.15 1 2.4
+  windowSillSize 0 0.05
+  frameAppearance BrushedAluminium {
+  }
+}
+Window {
+  translation -3.37 -14.57 0.15
+  rotation 0 0 1 -1.5707953071795862
+  name "window 1(6)"
+  size 0.15 1 2.4
+  windowSillSize 0 0.02
+  frameAppearance BrushedAluminium {
+  }
+}
+Wall {
+  translation -11.42 1.44 0.05
+  name "wall west"
+  size 18.1 0.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 7.22 1.44 0.05
+  name "wall west(1)"
+  size 18.6 0.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 7.22 -14.58 0.05
+  name "wall west(2)"
+  size 18.6 0.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Keyboard {
+  translation -5.51 0.42 0.8
+}
+Keyboard {
+  translation -10.19 0.21 0.8
+  name "keyboard(9)"
+}
+Keyboard {
+  translation -5.51 -1.67 0.8
+  name "keyboard(4)"
+}
+Keyboard {
+  translation -10.35 -1.53 0.8
+  name "keyboard(10)"
+}
+Keyboard {
+  translation 2.07 -0.92 0.66
+  name "keyboard(1)"
+}
+Keyboard {
+  translation 2.07 -12.02 0.66
+  name "keyboard(18)"
+}
+Keyboard {
+  translation 7.71 -1.18 0.74
+  name "keyboard(2)"
+}
+Keyboard {
+  translation 14.54 -0.88 0.68
+  name "keyboard(3)"
+}
+Keyboard {
+  translation 14.71 -12.13 0.68
+  name "keyboard(16)"
+}
+Keyboard {
+  translation 8.21 -12.13 0.68
+  name "keyboard(17)"
+}
+Wall {
+  translation -2.42 -2.08 0.05
+  rotation 0 0 -1 0
+  name "wall south"
+  size 0.1 6.9 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -2.45 -11.12 0.05
+  rotation 0 0 -1 0
+  name "wall south(2)"
+  size 0.1 6.9 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -12.73 -1.39 0.05
+  rotation 0 0 -1 0
+  name "wall south(1)"
+  size 0.1 5.5 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -14.62 -4.12 0.05
+  rotation 0 0 1 1.5708
+  name "wall south(4)"
+  size 0.1 3.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -19.15 -4.12 0.05
+  rotation 0 0 1 1.5708
+  name "wall south(6)"
+  size 0.1 2.6 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -20.42 -11.14 0.05
+  rotation 0 0 -1 0
+  name "wall south(3)"
+  size 0.1 7 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Door {
+  translation -17.17 -4.07 0.08
+  rotation 0 0 1 -1.5707953071795862
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 2.16 -4.48 0.08
+  rotation 0 0 1 -1.5707953071795862
+  name "door(1)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 7.12 -4.48 0.08
+  rotation 0 0 1 -1.5707953071795862
+  name "door(2)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 13.04 -4.48 0.08
+  rotation 0 0 1 -1.5707953071795862
+  name "door(3)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 13.1006 -8.7794 0.08
+  rotation 0 0 1 1.5708
+  name "door(4)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 7.1306 -8.5994 0.08
+  rotation 0 0 1 1.5708
+  name "door(5)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Door {
+  translation 2.2006 -8.5994 0.08
+  rotation 0 0 1 1.5708
+  name "door(6)"
+  size 0.1 1.3 2.4
+  position -3.533627248053506e-05
+  doorThickness 0.01
+  frameHeight 3
+  doorAppearance GenericDoorAppearance {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Wall {
+  translation -20.46 -1.56 0.05
+  rotation 0 0 -1 0
+  name "wall south(5)"
+  size 0.1 6 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -20.46 -6.12 0.05
+  rotation 0 0 -1 0
+  name "wall south(7)"
+  size 0.1 3.2 2.5
+  appearance PaintedWood {
+    colorOverride 0.7 0.3 0
+  }
+}
+Wall {
+  translation -11.43 -14.58 0.05
+  rotation 0 0 -1 0
+  name "wall outside east wall"
+  size 18 0.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -0.53 -4.48 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench"
+  size 0.1 3.66 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 4.63 -4.48 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(3)"
+  size 0.1 3.66 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 4.63 -8.6 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(9)"
+  size 0.1 3.66 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -0.42 -4.48 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(2)"
+  size 0.1 3.93 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -0.419992 -8.6 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(8)"
+  size 0.1 3.93 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 10.07 -4.48 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(4)"
+  size 0.1 4.62 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 10.07 -8.64 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(12)"
+  size 0.1 4.62 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 15.12 -4.43 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(7)"
+  size 0.1 2.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 15.12 -8.87 0.05
+  rotation 0 0 1 1.5708
+  name "wall north door  bench(14)"
+  size 0.1 2.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 3.77 -1.53 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(1)"
+  size 0.1 5.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 3.77 -11.8 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(10)"
+  size 0.1 5.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 10.04 -1.53 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(5)"
+  size 0.1 5.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 10.04 -11.7 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(11)"
+  size 0.1 5.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 16.45 -1.46 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(6)"
+  size 0.1 5.8 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 16.49 -11.69 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(13)"
+  size 0.1 5.69 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 16.49 -6.68 0.05
+  rotation 9.589734506671008e-09 -0.0036138716983296877 0.9999934699443532 5.30716e-06
+  name "wall north door  bench(15)"
+  size 0.1 4.4 2.5
+  appearance PaintedWood {
+    colorOverride 0.3 0.94 0.96
+  }
+}
+Wall {
+  translation -5.12 1.36 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "corner sw2"
+  size 0.13 0.81 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -2.33 1.41 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "corner sw2(1)"
+  size 0.13 0.81 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -2.33 -14.55 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "corner sw2(2)"
+  size 0.13 0.81 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -5.76 -2.54 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -5.76 -10.6 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(8)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -10.53 -2.54 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(5)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.19 -2.51 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(2)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.19 -10.62 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(9)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.19 -2.54 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(6)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.06 -10.64 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(12)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -14 -10.64 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(19)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.06 -8.77 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(14)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -10.63 -10.64 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(13)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -15.59 -10.64 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(18)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -19.56 -10.7 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(20)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -10.63 -8.76 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(15)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -15.64 -8.76 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(17)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -19.55 -8.82 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(21)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -13.95 -8.76 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(16)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -5.74 -4.48 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(1)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -5.74 -8.7 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(11)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.2 -4.48 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(3)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.2 -8.7 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(10)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.09 -4.48 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(4)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -10.65 -4.48 0.05
+  rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+  name "cube1 wall outside(7)"
+  size 0.077 1.61 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 0.340001 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 -13.47 0.03
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(6)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.82 0.340001 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(5)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 -1.56 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(1)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 -11.53 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(7)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.84 -1.56 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(4)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.84 -11.62 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(10)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -14.77 -11.62 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(13)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -20.32 -11.64 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(16)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 -3.49 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(2)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -4.97 -9.64 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(8)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.85 -3.49 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(3)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.85 -9.68 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(11)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -14.78 -9.68 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(12)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -20.32 -9.75 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(17)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.85 -13.6 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(9)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -14.76 -13.6 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(14)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -20.33 -13.6 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube1 wall inside(15)"
+  size 1.88 0.076 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.81 -0.65 0.05
+  rotation 0 0 -1 1.5708
+  name "cube2 wall inside"
+  size 0.076 1.35 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -9.85 -12.61 0.05
+  rotation 0 0 -1 1.5708
+  name "cube2 wall inside(3)"
+  size 0.076 1.35 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -14.81 -12.61 0.05
+  rotation 0 0 -1 1.5708
+  name "cube2 wall inside(4)"
+  size 0.076 1.35 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -20.02 -12.62 0.05
+  rotation 0 0 -1 1.5708
+  name "cube2 wall inside(5)"
+  size 0.076 0.76 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -5 -0.65 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube2 wall inside(1)"
+  size 0.076 1.35 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+Wall {
+  translation -5 -12.5 0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cube2 wall inside(2)"
+  size 0.076 1.35 1.5
+  appearance PaintedWood {
+    colorOverride 0.821 0.8 0.7
+  }
+}
+DEF DESK2LONG Solid {
+  translation -5.35 0.32 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -5.35 0.32 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(25)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+ComputerMouse {
+  translation -5.53 0.16 0.79
+  name "computer mouse(3)"
+}
+ComputerMouse {
+  translation -10.1778 -0.12 0.79
+  rotation 0 0 1 0.523599
+  name "computer mouse(9)"
+}
+ComputerMouse {
+  translation -5.53 -1.41 0.79
+  name "computer mouse(4)"
+}
+ComputerMouse {
+  translation -10.34 -1.24 0.79
+  name "computer mouse(10)"
+}
+ComputerMouse {
+  translation -4.49 -13.3 0.89
+  rotation 0 0 1 3.14159
+  name "computer mouse(5)"
+}
+ComputerMouse {
+  translation -4.49 -11.31 0.89
+  rotation 0 0 1 3.14159
+  name "computer mouse(8)"
+}
+ComputerMouse {
+  translation -5.54 -13.86 0.84
+  rotation 0 0 1 -0.261795307179586
+  name "computer mouse(6)"
+}
+ComputerMouse {
+  translation -9.49087 -13.3694 0.84
+  rotation 0 0 1 3.14159
+  name "computer mouse(11)"
+}
+ComputerMouse {
+  translation -10.0998 -13.1964 0.84
+  rotation 0 0 1 -0.5236053071795865
+  name "computer mouse(12)"
+}
+ComputerMouse {
+  translation -10.3398 -12.3364 0.84
+  rotation 0 0 -1 6.53317e-06
+  name "computer mouse(13)"
+}
+ComputerMouse {
+  translation -15.1498 -13.1164 0.84
+  rotation 0 0 -1 6.53317e-06
+  name "computer mouse(14)"
+}
+ComputerMouse {
+  translation -19.8198 -11.7064 0.84
+  rotation 0 0 1 3.14159
+  name "computer mouse(19)"
+}
+ComputerMouse {
+  translation -15.1498 -9.9364 0.84
+  rotation 0 0 -1 6.53317e-06
+  name "computer mouse(15)"
+}
+ComputerMouse {
+  translation -5.27217 -11.3512 0.82
+  rotation 0 0 1 -0.523595307179586
+  name "computer mouse(7)"
+}
+DEF DESK2LONG Solid {
+  translation -5.32 -13.43 0.79
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(9)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -9.46 -13.5 0.81
+  rotation 0 0 -1 -3.1415853071795863
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(10)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -10.2 -13.5 0.81
+  rotation 0 0 1 -5.307179586466759e-06
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(11)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -14.43 -13.5 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(14)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -15.12 -13.5 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(16)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -10.2 -11.57 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(12)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -14.39 -11.57 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(13)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -15.14 -11.57 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(15)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -19.91 -11.65 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(17)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -19.91 -13.57 0.81
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(18)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -4.6 -1.57 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(1)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 2.22 -1.14 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(19)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 2.22 -12 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(26)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 8.28 -12.07 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(27)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 14.8 -12 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(28)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+ComputerMouse {
+  translation 2.12 -1.3 0.65798
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+}
+ComputerMouse {
+  translation 2.12 -12.36 0.658007
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+  name "computer mouse(18)"
+}
+ComputerMouse {
+  translation 7.73 -1.45 0.65798
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+  name "computer mouse(1)"
+}
+ComputerMouse {
+  translation 14.49 -1.14 0.65798
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+  name "computer mouse(2)"
+}
+ComputerMouse {
+  translation 14.67 -12.43 0.657998
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+  name "computer mouse(16)"
+}
+ComputerMouse {
+  translation 8.23 -12.45 0.657997
+  rotation -0.9999999999999999 -1.71263960287166e-11 -4.4808887221932735e-11 3.6732051032371885e-06
+  name "computer mouse(17)"
+}
+DEF DESK2LONG Solid {
+  translation 14.68 -1.14 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(21)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 7.82 -1.14 0.62
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(24)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 1.37 -1.73 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(20)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 1.37 -11.41 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(29)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 7.38 -11.41 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(30)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 13.89 -11.41 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(31)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 13.82 -1.73 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(22)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation 7.16 -1.73 0.62
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(23)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -9.45 -1.57 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(6)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -10.16 -1.57 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(7)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -10.16 -3.49 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(8)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -5.35 -1.57 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(3)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -5.35 -3.49 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(2)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -4.62 -3.49 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(4)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK2LONG Solid {
+  translation -9.56 -3.49 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 2 long(5)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.88 0.96 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.88 -10.91 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(14)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -3.88 -14.09 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(12)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -8.66 0.96 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(8)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3SHORT Solid {
+  translation -10.9 0.96 0.76
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF DESKSHAPESHORT Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 0.91 0.076
+      }
+    }
+  ]
+  name "desktop 3 short(9)"
+  boundingObject DEF DESKSHAPESHORT Shape {
+    appearance PaintedWood {
+      colorOverride 0.99 0.89 0.7
+    }
+    geometry Box {
+      size 0.61 0.91 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -4.62 -9.64 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -9.43 -9.64 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(8)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -10.21 -9.64 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(10)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -15.09 -9.64 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(12)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -19.94 -9.74 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(13)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.85 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -14.4 -9.64 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(11)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -5.35 -9.62 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(7)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -4.62 0.33 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(4)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -4.62 -13.46 0.78
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(3)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.88 0.076
+    }
+  }
+}
+Keyboard {
+  translation -4.5 -13.65 0.82
+  rotation 0 0 1 3.14159
+  name "keyboard(5)"
+}
+Keyboard {
+  translation -4.5 -11.64 0.82
+  rotation 0 0 1 3.14159
+  name "keyboard(8)"
+}
+Keyboard {
+  translation -5.46456 -13.6084 0.82
+  rotation 0 0 -1 0.261798
+  name "keyboard(6)"
+}
+Keyboard {
+  translation -9.41247 -13.658 0.85
+  rotation 0 0 1 -2.6179953071795863
+  name "keyboard(11)"
+}
+Keyboard {
+  translation -10.1757 -13.4529 0.85
+  rotation 0 0 1 -0.2618053071795865
+  name "keyboard(12)"
+}
+Keyboard {
+  translation -15.0918 -13.439 0.85
+  rotation 0 0 -1 5.92017e-06
+  name "keyboard(14)"
+}
+Keyboard {
+  translation -19.8118 -12.099 0.85
+  rotation 0 0 1 3.14159
+  name "keyboard(19)"
+}
+Keyboard {
+  translation -10.3408 -12.064 0.85
+  rotation 0 0 -1 5.92017e-06
+  name "keyboard(13)"
+}
+Keyboard {
+  translation -15.1408 -9.594 0.85
+  rotation 0 0 -1 5.92017e-06
+  name "keyboard(15)"
+}
+Keyboard {
+  translation -5.32927 -11.6314 0.82
+  rotation 0 0 -1 0.261798
+  name "keyboard(7)"
+}
+DEF DESK3LONG Solid {
+  translation -4.62 -11.55 0.78
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(5)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -5.3 -11.56 0.78
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(6)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -9.48 -11.6 0.78
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(9)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -9.42 0.33 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(1)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+DEF DESK3LONG Solid {
+  translation -10.15 0.33 0.76
+  rotation 0 0 1 3.14159
+  children [
+    DEF DESKSHAPELONG Shape {
+      appearance PaintedWood {
+        colorOverride 0.26 0.16 0.05
+      }
+      geometry Box {
+        size 0.61 1.83 0.076
+      }
+    }
+  ]
+  name "desktop 3 long(2)"
+  boundingObject DEF DESKSHAPELONG Shape {
+    appearance PaintedWood {
+      colorOverride 0.26 0.16 0.05
+    }
+    geometry Box {
+      size 0.61 1.83 0.076
+    }
+  }
+}
+Cabinet {
+  translation 5.2816 -4.55579 0
+  rotation 0 0 1 -1.5708053071795867
+  name "bookcase 3"
+  depth 0.41
+  rowsHeights [
+    0.45, 0.45
+  ]
+  columnsWidths [
+    0.85
+  ]
+  layout [
+    "Shelf  (1, 2, 1, 0)"
+    "Shelf  (1, 3, 1, 0)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.2 0.2 0.2
+  }
+}
+Cabinet {
+  translation 0.56867 -4.47298 0
+  rotation 0 0 1 1.5708
+  name "create cabinet(1)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 5.86867 -4.47298 0
+  rotation 0 0 1 1.5708
+  name "create cabinet(38)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 0.56867 -8.88298 0
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(40)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 5.71867 -8.67298 0
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(41)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 11.6687 -8.68298 0
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(42)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 11.8187 -4.47298 0
+  rotation 0 0 1 1.5708
+  name "create cabinet(39)"
+  depth 0.41
+  outerThickness 0.02
+  rowsHeights [
+    0.61, 0.61, 0.62
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.36133 -3.41298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(2)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -1.30133 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(7)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 11.1087 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(22)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 4.8587 1.24702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(31)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -0.26133 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(8)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 12.1187 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(23)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 5.8787 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(32)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 0.76867 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(9)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 1.78867 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(10)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 13.1587 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(24)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 6.9187 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(33)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 14.1887 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(25)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 7.9287 1.23702 1.43
+  rotation 0 0 1 -1.5707953071795862
+  name "create cabinet(34)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 7.8787 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(46)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 6.8587 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(47)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 5.8287 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(48)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 12.2087 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(70)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 13.2187 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(71)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 14.2487 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(72)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -0.2713 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(59)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 0.7587 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(60)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 1.7787 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(61)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 4.7887 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(49)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 11.1587 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(69)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -1.3113 -14.533 1.43
+  rotation 0 0 1 1.5708
+  name "create cabinet(58)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.71867 0.20702 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(11)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.3987 0.206999 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(16)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9687 0.207005 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(35)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.72867 -1.87298 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(12)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.3887 -1.87298 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(14)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9587 -1.87298 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(37)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9587 -13.323 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(43)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.3987 -13.323 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(67)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.7087 -13.323 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(64)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.73867 -0.83298 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(13)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.3887 -0.833015 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(15)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9587 -0.833006 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(36)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9587 -12.283 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(44)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.4087 -12.283 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(66)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.7187 -12.283 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(63)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 9.9587 -11.243 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(45)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 16.4187 -11.243 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(65)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.7187 -11.243 1.43
+  rotation 0 0 1 3.14159
+  name "create cabinet(62)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.36133 -2.37298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(3)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.36133 -1.33298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(4)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.0487 -1.33298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(18)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8187 -1.33298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(28)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.36133 -0.29298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(5)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.0687 -0.292925 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(19)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8187 -0.292947 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(29)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8187 -12.9529 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(51)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.1187 -12.9529 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(73)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.3613 -12.9529 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(56)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8187 -11.9229 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(52)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.1187 -11.9529 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(75)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.3713 -11.9229 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(55)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8187 -10.8929 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(53)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.1187 -10.9429 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(74)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.3813 -10.8929 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(54)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.36133 0.72702 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(6)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.0887 0.727078 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(17)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8087 0.73705 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(30)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8087 -13.9929 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(50)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 10.1187 -13.9929 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(68)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.3613 -13.9929 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(57)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.42132 -1.84298 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.81868 -1.84298 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(21)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.0987 -1.84298 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(8)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.0687 -2.37298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(21)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8287 -2.37298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(27)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Desk {
+  translation 4.14 -4.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(1)"
+}
+FruitBowl {
+  translation 4.360000004461193 -4.900000004461193 0.7090189999805667
+  rotation -0.7071031989317799 -0.7071103634192476 -2.354461574589216e-06 6.737333265618621e-13
+  color 0 0 0
+  mass 5
+}
+FruitBowl {
+  translation 3.89000000446119 -4.900000004461193 0.7090189999805667
+  rotation -0.7070969224465469 -0.7071166397787492 3.825260607063995e-06 6.737529632116731e-13
+  name "fruit bowl(1)"
+  color 0 0 0
+  mass 5
+}
+Cabinet {
+  translation -2.43132 -0.83298 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(1)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82868 -0.833004 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(22)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82868 -12.323 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(30)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.1387 -12.323 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(46)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.0987 -0.833051 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(9)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -2.42132 0.0370215 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82868 0.08699 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(23)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82868 -13.233 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(29)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.1387 -13.233 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(45)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -2.34132 -13.233 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(32)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -2.34132 -12.393 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(33)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -2.34132 -11.553 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(34)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -2.34132 -10.713 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(35)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.3, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.0987 0.0369553 0.02
+  rotation 0 0 1 -5.307179586466759e-06
+  name "workbench(10)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -0.75132 1.36702 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(4)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 5.24868 1.36702 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(19)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 5.24868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(24)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 11.5887 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(41)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -0.96132 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(36)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 6.29868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(25)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 12.6487 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(42)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 13.7087 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(43)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 14.7687 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(44)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 0.08868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(37)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 1.03868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(38)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.09868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(39)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 7.34868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(26)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 8.39868 -14.463 0.02
+  rotation 0 0 1 1.57079
+  name "workbench(27)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 6.27868 1.36702 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(18)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 11.8587 1.367 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(12)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 12.8987 1.367 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(13)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 13.9587 1.367 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(14)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 15.0187 1.367 0.02
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(15)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.52, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 0.29868 1.36702 0.02
+  rotation 0 0 -1 1.57081
+  name "workbench(5)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 1.30868 1.36702 0.02
+  rotation 0 0 -1 1.57081
+  name "workbench(6)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 7.31868 1.36702 0.02
+  rotation 0 0 -1 1.57081
+  name "workbench(17)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.25868 1.36702 0.02
+  rotation 0 0 -1 1.57081
+  name "workbench(7)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.7, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 8.45868 1.36702 0.02
+  rotation 0 0 -1 1.57081
+  name "workbench(16)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.7, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -1.80132 1.40702 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(2)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 4.25868 1.41702 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(20)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 4.25868 -13.623 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(28)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.5887 -13.623 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(40)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -1.97132 -13.623 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(31)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.6987 1.40702 0.01
+  rotation 0 0 1 -1.5708053071795867
+  name "workbench(11)"
+  depth 0.88
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.7, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, .66)"
+    "LeftSidedDoor (2, 1, 1, 3, .66)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.1 -3.16999 0.02
+  rotation 0 0 -1 5.30716e-06
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.0587 -3.40298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(20)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation 3.8287 -3.40298 1.43
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "create cabinet(26)"
+  depth 0.54
+  outerThickness 0.02
+  rowsHeights [
+    0.6, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.5, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 3, 2.3)"
+    "LeftSidedDoor (2, 1, 1, 3, 2.3)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0.07
+  }
+}
+Cabinet {
+  translation -2.43 -3.16998 0.02
+  rotation 0 0 -1 5.30716e-06
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82 -3.16998 0.02
+  rotation 0 0 -1 5.30716e-06
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.82 -11.01 0.02
+  rotation 0 0 -1 5.30716e-06
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 10.15 -11.01 0.02
+  rotation 0 0 -1 5.30716e-06
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.72 -0.25998 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 9.97 -0.25 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 9.97 -12.79 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 16.42 -12.79 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.72 -12.79 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 9.97 -11.14 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 16.44 -11.14 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.7 -11.14 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.52 -0.25998 -0.03
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 8.08 -0.459981 -0.03
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 14.98 -0.429982 -0.03
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 0.65 -1.98998 -0.05
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 0.65 -11.12 -0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.55 -12.63 -0.05
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 8.59 -12.75 -0.05
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 15.12 -12.63 -0.05
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 6.71 -11.12 -0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 13.19 -11.12 -0.05
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 13.13 -2.04998 -0.05
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 6.52 -2.04998 -0.05
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.4
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.16 -2.02998 -0.02
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 2.51 -11.44 -0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 8.58 -11.4 -0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 15.07 -11.44 -0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 14.57 -2.02998 -0.02
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 7.79 -2.02998 -0.02
+  rotation 0 0 -1 -1.5707953071795862
+  name "cabinet(3)"
+  depth 0.64
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.6
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 3.73 -1.90998 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 9.98 -1.90998 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 16.43 -1.90998 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation 16.41 -0.29998 0.02
+  rotation 0 0 1 3.14159
+  name "cabinet(3)"
+  depth 0.84
+  outerThickness 0.02
+  rowsHeights [
+    0.21, 0.21, 0.22
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.26 0.16 0.052
+  }
+}
+Cabinet {
+  translation -6.26 -2.44998 0.02
+  rotation 9.58983e-09 9.5898e-09 1 1.57079
+  name "cabinet(4)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -6.26 -4.33998 0.02
+  rotation 9.58983e-09 9.5898e-09 1 1.57079
+  name "cabinet(16)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -8.64 -2.44998 0.02
+  rotation 9.58983e-09 9.5898e-09 1 1.57079
+  name "cabinet(8)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -6.26 1.20002 0.02
+  rotation 9.58974e-09 -9.58977e-09 1 -1.5708053071795867
+  name "cabinet(2)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -6.26 -8.67998 0.02
+  rotation 9.58974e-09 -9.58977e-09 1 -1.5708053071795867
+  name "cabinet(17)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -8.76 -10.68 0.02
+  rotation 9.58974e-09 -9.58977e-09 1 -1.5708053071795867
+  name "cabinet(19)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -8.51 -8.67998 0.02
+  rotation 9.58974e-09 -9.58977e-09 1 -1.5708053071795867
+  name "cabinet(18)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -9.71 -0.36998 0.02
+  rotation 3.3337190724998483e-09 0.0021345794061219075 -0.9999977217827842 8.98519e-06
+  name "cabinet(9)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -3.72 1.20002 0.02
+  rotation 9.58974e-09 -9.58977e-09 1 -1.5708053071795867
+  name "cabinet(6)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -3.72 -14.41 0.02
+  rotation 9.58986e-09 9.58983e-09 1 1.57079
+  name "cabinet(13)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -6.25 -14.41 0
+  rotation 9.58986e-09 9.58983e-09 1 1.57079
+  name "cabinet(14)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Laptop {
+  translation -5.40302 -12.7721 0.83
+  rotation 0 0 1 -2.617985307179586
+}
+Cabinet {
+  translation -8.55 -14.41 0.02
+  rotation 9.58986e-09 9.58983e-09 1 1.57079
+  name "cabinet(20)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -4.07 -2.45998 0.02
+  rotation 9.58986e-09 9.58983e-09 1 1.57079
+  name "cabinet(7)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -5.05 -4.18998 0.02
+  rotation 9.5898e-09 -1.49311e-14 1 3.14158
+  name "cabinet(5)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -10.2 -3.23998 0.02
+  rotation 9.58972e-09 -9.58975e-09 1 -1.5708053071795867
+  name "cabinet(10)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -10.97 1.27002 0.02
+  rotation 9.58972e-09 -9.58975e-09 1 -1.5708053071795867
+  name "cabinet(11)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Cabinet {
+  translation -9.87 -1.02998 0.02
+  rotation 9.58978e-09 -1.49311e-14 1 3.14158
+  name "cabinet(12)"
+  depth 0.59
+  outerThickness 0.01
+  rowsHeights [
+    0.35, 0.15, 0.15
+  ]
+  columnsWidths [
+    0.5
+  ]
+  layout [
+    "Drawer (1, 1, 1, 1, 1.5)"
+    "Drawer (1, 2, 1, 1, 1.5)"
+    "Drawer (1, 3, 1, 1, 1.5)"
+    "Drawer (2, 1, 1, 1, 1.5)"
+    "Drawer (2, 2, 1, 1, 1.5)"
+    "Drawer (2, 3, 1, 1, 1.5)"
+  ]
+  handle CabinetHandle {
+    handleLength 0.05
+    handleRadius 0.008
+    handleColor 0.427451 0.513725 0.533333
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.99 0.89 0.7
+  }
+}
+Floor {
+  translation -2 -6.6 0
+  name "floor(1)"
+  size 37 16
+  appearance Parquetry {
+    type "light strip"
+  }
+}
+DesktopComputer {
+  translation -4.34 -4.29 0.83
+  name "desktop computer(5)"
+}
